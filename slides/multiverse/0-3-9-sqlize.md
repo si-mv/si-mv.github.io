@@ -69,7 +69,6 @@ Now we can use this model `Restaurant` to add data to the database. We are going
 ## Testing
 Testing with jest means we avoid `console.log`ing and getting messed up with test data and real data. Let's see how it works!
 
-
 Make a file called `db.test.js` and put this at the top:
 
 ```js
