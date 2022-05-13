@@ -92,7 +92,7 @@ The `beforeAll` happens before any other test is run. `sequelize.sync()` will en
 Now, inside the `describe` underneath `beforeAll`, we make our first test:
 ```js
   test("Can create a restaurant", async () => {
-
+ 
     await Restaurant.create({
       name: "Nando's",
       imageURL:
